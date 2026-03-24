@@ -13,7 +13,7 @@ Includes a `keydown` event listener with a cleanup function using `useEffect`.
 - Supports Numpad and standard keyboard input.
 - Uses `e.preventDefault()` on keys like `/` and `Enter`.
 
-### 3. Precision Math Engine
+### 3. Floating Point Issue
 JavaScript floating-point binary issue handled using `toFixed` rounding and string-to-float parsing.
 
 ## Tech Stack
