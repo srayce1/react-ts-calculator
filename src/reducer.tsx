@@ -41,6 +41,7 @@ export function reducer(
 ): CalculatorState {
   switch (action.type) {
     case "ADD_DIGIT":
+        if (state.current.length >=18 && !state.overwrite) return state; 
       if (action.payload === "±") {
         if (state.current === "0" || state.current === "") return state;
         return {
